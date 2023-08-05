@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Lens by HTML5 UP</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <%= stylesheet_link_tag 'main', media: 'all' %>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <noscript><%= stylesheet_link_tag 'noscript', media: 'all' %></noscript>
+</head>
+<body class="is-preload-0 is-preload-1 is-preload-2">
+
+<!-- Main -->
+<div id="main">
+
+<!-- Header -->
+<header id="header">
+  <h1>Lens</h1>
+  <p>Just another fine responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
+  <ul class="icons">
+    <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+    <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+    <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+    <li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+    <li><a href="about">About</a></li>
+  </ul>
+</header>
+
+<!-- Thumbnail -->
+
+
+<section id="thumbnails">
+  <article>
+    <a class="thumbnail" href="<%= asset_path('fulls/01.jpg') %>" data-position="left center">
+      <img src="<%= asset_path('thumbs/01.jpg') %>" alt="" />
+    </a>
+    <h2>Primera fotito</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </article>
+
+   <article>
+    <a class="thumbnail" href="<%= asset_path('fulls/02.jpg') %>" data-position="left center">
+      <img src="<%= asset_path('thumbs/02.jpg') %>" alt="" />
+    </a>
+    <h2>Segunda fotito</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </article>
+  
+   <article>
+    <a class="thumbnail" href="<%= asset_path('fulls/03.jpg') %>" data-position="left center">
+      <img src="<%= asset_path('thumbs/03.jpg') %>" alt="" />
+    </a>
+    <h2>Tercera fotito</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </article>
+
+   <article>
+    <a class="thumbnail" href="<%= asset_path('fulls/04.jpg') %>" data-position="left center">
+      <img src="<%= asset_path('thumbs/04.jpg') %>" alt="" />
+    </a>
+    <h2>Cuarta fotito</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </article>
+   <article>
+    <a class="thumbnail" href="<%= asset_path('fulls/05.jpg') %>" data-position="left center">
+      <img src="<%= asset_path('thumbs/05.jpg') %>" alt="" />
+    </a>
+    <h2>Quinta fotito</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </article>
+   <article>
+    <a class="thumbnail" href="<%= asset_path('fulls/06.jpg') %>" data-position="left center">
+      <img src="<%= asset_path('thumbs/06.jpg') %>" alt="" />
+    </a>
+    <h2>Sexta fotito</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </article>
+   <article>
+    <a class="thumbnail" href="<%= asset_path('fulls/07.jpg') %>" data-position="left center">
+      <img src="<%= asset_path('thumbs/07.jpg') %>" alt="" />
+    </a>
+    <h2>septima fotito</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </article>
+   <article>
+    <a class="thumbnail" href="<%= asset_path('fulls/08.jpg') %>" data-position="left center">
+      <img src="<%= asset_path('thumbs/08.jpg') %>" alt="" />
+    </a>
+    <h2>octava fotito</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </article>
+   <article>
+    <a class="thumbnail" href="<%= asset_path('fulls/09.jpg') %>" data-position="left center">
+      <img src="<%= asset_path('thumbs/09.jpg') %>" alt="" />
+    </a>
+    <h2>novema fotito</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </article>
+   <article>
+    <a class="thumbnail" href="<%= asset_path('fulls/10.jpg') %>" data-position="left center">
+      <img src="<%= asset_path('thumbs/10.jpg') %>" alt="" />
+    </a>
+    <h2>decima fotito</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </article>
+   <article>
+    <a class="thumbnail" href="<%= asset_path('fulls/11.jpg') %>" data-position="left center">
+      <img src="<%= asset_path('thumbs/11.jpg') %>" alt="" />
+    </a>
+    <h2>onceava fotito</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </article>
+   <article>
+    <a class="thumbnail" href="<%= asset_path('fulls/12.jpg') %>" data-position="left center">
+      <img src="<%= asset_path('thumbs/12.jpg') %>" alt="" />
+    </a>
+    <h2>doceava fotito</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </article>
+</section>
+
+
+
+
+<!-- Footer -->
+<footer id="footer">
+  <ul class="copyright">
+    <li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a>.</li>
+  </ul>
+</footer>
+
+</div>
+
+<!-- Scripts -->
+<%= javascript_include_tag 'jquery.min' %>
+<%= javascript_include_tag 'browser.min' %>
+<%= javascript_include_tag 'breakpoints.min' %>
+<%= javascript_include_tag 'main' %>
+
+</body>
+</html>
+
+
+section id="thumbnails">
+  <article>
+    <a class="thumbnail" href="<%= asset_path('fulls/01.jpg') %>" data-position="left center">
+      <img src="<%= asset_path('thumbs/01.jpg') %>" alt="" />
+    </a>
+    <h2>Primera fotito<</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </article>
+</section>
